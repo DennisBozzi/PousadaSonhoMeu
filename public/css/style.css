@@ -1,0 +1,193 @@
+:root {
+    color: #E6D9B9;
+    color: #C47D20;
+    color: #795548;
+    color: #FFAB15;
+    color: #F9CD15;
+    color: #0070AD;
+}
+
+/* Boas Vindas Section */
+body {
+    background-color: #E6D9B9;
+    font-family: 'Lato', sans-serif;
+    color: #795548;
+}
+
+.boasVindas {
+    padding: 0px 12px;
+    content: ' ';
+    background-image: url(../images/bgHotel.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.cardInicial {
+    height: 400px;
+    max-width: 280px;
+    color: #FFF;
+    background-color: #795548e1;
+    text-align: justify;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.cardInicial:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.paragrafoCard {
+    height: 180px;
+    display: flex;
+}
+
+.cardButton {
+    border-radius: 20px;
+    background-color: #E6D9B9;
+    color: #795548;
+    border: 0px solid white;
+}
+
+.cardButton:hover {
+    background-color: #C47D20;
+}
+
+/* comochegar.html */
+
+.bodyComoChegar {
+    content: ' ';
+    background-image: url(../images/bgComoChegar2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    color: #E6D9B9;
+}
+
+.opacidadeComoChegar {
+    padding: 0px 12px;
+    background-color: #7955488e;
+    color: #E6D9B9;
+}
+
+.comoChegar {
+    padding: 48px 12px;
+}
+
+.comoChegar h4 {
+    margin: 24px 0px 4px;
+}
+
+.comoChegar p {
+    margin-bottom: 0px;
+}
+
+.mapa {
+    border-radius: 22px;
+    width: 50%;
+    height: 450px;
+}
+
+/* A Pousada - Acomodacoes - Atividades */
+.buttonMiniatura {
+    padding: 0px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    position: relative;
+    margin: 12px auto;
+}
+
+.imgButton {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.imgText {
+    margin: 0px;
+    color: white;
+    position: absolute;
+    bottom: 4px;
+    background-color: #795548a2;
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+
+.divTextoAPousada {
+    text-align: justify;
+}
+
+.subtitulo {
+    color: #C47D20;
+}
+
+.divTextoAPousada li {
+    margin: 4px 0px;
+}
+
+/* Contato */
+.linkContato {
+    text-decoration: none;
+    color: #795548;
+}
+
+.submitButton {
+    background-color: #0070AD;
+    width: 50%;
+    margin: auto;
+    border: 0px;
+    padding: 6px 48px;
+}
+
+.labelMensagem {
+    color: #FFFFFF !important;
+    position: absolute;
+}
+
+.labelMensagem::after {
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+}
+
+.inputMensagem {
+    background-color: #795548b7;
+    color: #FFFFFF;
+    border: 0px;
+    position: relative;
+}
+
+.inputMensagem:hover {
+    cursor: pointer;
+}
+
+.inputMensagem:focus {
+    background-color: #795548b7;
+    color: #FFFFFF;
+}
+
+/* Media Query */
+@media (max-width: 762px) {
+    .mapa {
+        width: 100%;
+        padding: 0px 12px;
+    }
+
+    .formSize {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .imgButton {
+        width: 100%;
+        padding: 0px 12px;
+    }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+
+    <title>Home | Contato</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/padrao.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Cabecalho -->
+    <section>
+
+        <div class="logoTitulo w-100">
+            <a href="../index.html">
+                <img src="../images/logo3.svg" alt="" class="logo">
+            </a>
+        </div>
+
+        <div class="botoes">
+            <a href="../index.html" class="btn btn-secondary botoesNavegacao">Início</a>
+            <a href="aPousada.html" class="btn btn-secondary botoesNavegacao">A Pousada</a>
+            <a href="acomodacoes.html" class="btn btn-secondary botoesNavegacao">Acomodações</a>
+            <a href="atividades.html" class="btn btn-secondary botoesNavegacao">Atividades</a>
+            <a href="contato.html" class="btn btn-secondary botoesNavegacao">Contato</a>
+            <a href="comoChegar.html" class="btn btn-secondary botoesNavegacao">Como Chegar</a>
+        </div>
+
+    </section>
+
+    <!-- A Pousada -->
+    <section class="mw980 m-auto">
+
+        <!-- Texto -->
+        <div class="divTextoAPousada mt-5 p-4">
+
+            <h1 class="mb-1">Contato</h1>
+            <h4 class="mb-4 subtitulo">Vamos conversar!</h4>
+
+            <p class="my-4">
+                Se já esteve pela <strong>Vila de Itaúnas</strong>, sabe que precisa voltar... Se nunca esteve, não sabe
+                o que está
+                <strong>perdendo</strong>... Mas está curioso? <strong>Contacte-nos</strong> e venha conhecer a Vila
+                Mágica, se hospedando em uma das
+                melhores pousadas da Vila.
+            </p>
+
+            <p>Segue abaixo como pode obter <strong>informações</strong> sobre o nosso cantinho ou somente obter
+                informações sobre
+                <strong>Itaúnas</strong>:
+            </p>
+
+            <hr class="w-50 m-auto my-5">
+
+            <div class="d-flex justify-content-between gap-5 flex-wrap">
+                <div class="d-flex flex-column">
+                    <p class="fs-5">Telefone</p>
+                    <a target="_blank"
+                        href="https://wa.me//5527999165767?text=Olá%20,%20como%20faço%20para%20alugar%20um%20quarto?"
+                        class="mb-0 linkContato">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="../images/whatsapp-svg-amarelo.svg" alt="" width="24px">
+                            (27) 99916-5767
+
+                            <img src="../images/out-svg.svg" alt="" width="12px">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="d-flex flex-column">
+                <p class="fs-5">Email</p>
+                <div class="d-flex align-items-center gap-2">
+                    <img src="../images/email-svg.svg" alt="" width="24px">
+                    <a href="mailto:sonhomeu.itaunas@outlook.com" class="mb-0 linkContato">sonhomeu.itaunas@outlook.com
+                    </a>
+                    <img src="../images/out-svg.svg" alt="" width="12px">
+                </div>
+
+            </div>
+
+            <div class="d-flex flex-column">
+                <p class="fs-5">Instagram</p>
+                <div class="d-flex align-items-center gap-2">
+                    <img src="../images/instagram-svg-amarelo.svg" alt="" width="24px">
+                    <a target="_blank" href="https://www.instagram.com/pousadasonhomeu.itaunas/"
+                        class="mb-0 linkContato">
+                        @pousadasonhomeu.itaunas
+                    </a>
+                    <img src="../images/out-svg.svg" alt="" width="12px">
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="w-50 m-auto my-5">
+
+        <!-- Formulário -->
+        <form class="form-floating d-flex flex-column" action="https://api.staticforms.xyz/submit" method="post">
+
+            <h5 class="subtitulo mb-5">Envie-nos uma mensagem e entraremos em contato em breve!</h5>
+
+            <div class="d-flex gap-2 flex-wrap">
+
+                <div class="mb-3 flex-fill form-floating formSize">
+                    <input autocomplete="off" type="text" class="form-control inputMensagem" id="nomeInput"
+                        placeholder="" required name="$Nome">
+                    <label for="nomeInput" class="form-label labelMensagem mb-0">Nome</label>
+                </div>
+
+                <div class="mb-3 flex-fill form-floating formSize">
+                    <input autocomplete="off" type="tel" class="form-control inputMensagem" id="telInput" placeholder=""
+                        required name="$Telefone">
+                    <label for="telInput" class="form-label labelMensagem mb-0">Telefone</label>
+                </div>
+
+                <div class="mb-3 flex-fill form-floating formSize">
+                    <input autocomplete="off" type="email" class="form-control inputMensagem" id="emailInput"
+                        placeholder="" required name="$Email">
+                    <label for="emailInput" class="form-label labelMensagem mb-0">E-mail</label>
+                </div>
+            </div>
+
+            <div class="mb-3 flex-fill form-floating formSize">
+                <input autocomplete="off" type="date" class="form-control inputMensagem" id="dataDeInput" placeholder=""
+                    required name="$CheckIn">
+                <label for="dataDeInput" class="form-label labelMensagem mb-0">Check In</label>
+            </div>
+
+            <div class="mb-3 flex-fill form-floating formSize">
+                <input autocomplete="off" type="date" class="form-control inputMensagem" id="dataAteInput" required
+                    placeholder="" name="$CheckOut">
+                <label for="dataAteInput" class="form-label labelMensagem mb-0">Check Out</label>
+            </div>
+
+            <div class="mb-3 flex-fill form-floating formSize">
+                <input autocomplete="off" type="number" min="1" max="5" class="form-control inputMensagem"
+                    id="hospedesInput" required placeholder="" name="$Hospedes">
+                <label for="hospedesInput" class="form-label labelMensagem mb-0">Número de Hóspedes</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control inputMensagem" name="$Mensagem" id="mensagemInput" cols="30" rows="10"
+                    style="height: 100px;" placeholder=""></textarea>
+                <label for="mensagemInput" class="form-label labelMensagem">Mensagem</label>
+            </div>
+
+            <input type="submit" class="btn btn-dark mt-5 submitButton" value="Submit">Enviar</input>
+
+            <input type="hidden" name="accessKey" value="1085c5ba-91dd-4ba2-9f61-2d5bb0a8239d">
+
+            <input type="hidden" name="subject" value="Cliente entrou em contato!">
+            <input type="hidden" name="redirectTo" value="https://psmitaunas.web.app/html/obrigado.html">
+
+        </form>
+
+    </section>
+
+    <!-- Rodapé -->
+    <section class="rodape mw980 m-auto d-flex justify-content-around flex-wrap">
+
+        <div class="cardsContato">
+
+            <hr width="120px">
+            <h4>Ligue e faça sua reserva</h4>
+
+            <a target="_blank"
+                href="https://wa.me//5527999165767?text=Olá%20,%20como%20faço%20para%20alugar%20um%20quarto?"
+                class="btn btn-dark botoesNavegacao w-100 botoesRodape">
+                <img src="../images/whatsapp-svg.svg" width="24px">
+                (27) 99916-5767
+            </a>
+        </div>
+
+        <div class="cardsContato">
+
+            <hr width="120px">
+            <h4>Siga a gente</h4>
+            <a target="_blank" href="https://www.instagram.com/pousadasonhomeu.itaunas/"
+                class="btn btn-dark botoesNavegacao w-100 botoesRodape">
+                <img src="../images/instagram-svg.svg" width="24px">
+                @pousadasonhomeu.itaunas
+            </a>
+        </div>
+
+        <div class="cardsContato">
+
+            <hr width="120px">
+            <h4>Fotos cedidas por</h4>
+
+            <div class="d-flex flex-column gap-2">
+                <a target="_blank" href="https://www.instagram.com/cleidysirlene/"
+                    class="btn btn-dark botoesNavegacao w-100 botoesRodape">
+                    <img src="../images/instagram-svg.svg" width="24px">
+                    @cleidysirlene
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/marizasillvacarmo/"
+                    class="btn btn-dark botoesNavegacao w-100 botoesRodape">
+                    <img src="../images/instagram-svg.svg" width="24px">
+                    @marizasillvacarmo
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
