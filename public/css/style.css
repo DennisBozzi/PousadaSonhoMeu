@@ -15,7 +15,6 @@ body {
 }
 
 .boasVindas {
-    padding: 0px 12px;
     content: ' ';
     background-image: url(../images/bgHotel.jpg);
     background-attachment: fixed;
@@ -30,7 +29,7 @@ body {
     height: 400px;
     max-width: 280px;
     color: #FFF;
-    background-color: #795548e1;
+    background-color: #795548ef;
     text-align: justify;
     font-size: 16px;
     transition: 0.25s;
@@ -61,19 +60,18 @@ body {
 
 .bodyComoChegar {
     content: ' ';
-    background-image: url(../images/bgComoChegar2.jpg);
+    /* background-image: url(../images/bgComoChegar2.jpg); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 18px;
-    color: #E6D9B9;
+    color: #795548;
 }
 
 .opacidadeComoChegar {
     padding: 0px 12px;
-    background-color: #7955488e;
-    color: #E6D9B9;
+    /* background-color: #7955488e; */
 }
 
 .comoChegar {
@@ -82,6 +80,11 @@ body {
 
 .comoChegar h4 {
     margin: 24px 0px 4px;
+}
+
+.boxTexto {
+    padding: 0px 12px;
+    background-color: #795548ef;
 }
 
 .comoChegar p {
